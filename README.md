@@ -5,14 +5,11 @@ The OSC-NETLOGO Extension for NetLogo adds primitives to NetLogo that allow user
 ## Installation 
 It can be installed in two different ways:
 
-• Put the osc folder into the Extensions folder in the
-same location where the NetLogo application is installed.
+• Put the osc folder into the Extensions folder in the same location where the NetLogo application is installed.
 
 • Put the osc folder into the current model folder.
 
-After installing the OSC extension, in order to use it,
-it is mandatory to add the following line to the top of the
-procedures tab: extensions [osc]
+Then, in order to use it, it is mandatory to add the following line to the top of theprocedures tab: extensions [osc]
 
 ## Primitives 
 (taken from the original [release documentation](https://quod.lib.umich.edu/cgi/p/pod/dod-idx/osc-netlogo-a-tool-for-exploring-the-sonification-of-complex.pdf?c=icmc;idno=bbp2372.2012.069;format=pdf))
