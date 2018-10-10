@@ -19,7 +19,7 @@ procedures tab: extensions [osc]
 
 ### osc:port-out
 This primitive should be used in the setup of the model. The user can set the IP (String) and port number (integer)of the receiving host, such as:
-```
+```Netlogo
 osc:port-out "169.254.183.129 " 10000
 ````
 
