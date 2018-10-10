@@ -32,7 +32,7 @@ osc:send-agent "tagName" agentsetName var1 var2 var3 ...
 ```
 Examples:
 ```
-osc:send-agent "myTurtles" turtles "xcor" "size")
+osc:send-agent "myTurtles" turtles "xcor" "size"
 osc:send-agent "breeds" cars "XCOR" "age"
 osc:send-agent "links" blue-links "weight"
 osc:send-agent "patches" patch 2 2 "pcolor" "pxcor"
@@ -40,6 +40,6 @@ osc:send-agent "patches" patch 2 2 "pcolor" "pxcor"
 ### osc:send-variable
 This primitive receives as input the name of any variable of the model and sends it out. Example:
 ```
-osc:send-variables "decays" decays)
+osc:send-variables "decays" decays
 ```
 
