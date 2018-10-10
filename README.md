@@ -26,7 +26,7 @@ osc:port-out "169.254.183.129 " 10000
 If port-out is not defined, the extension will use the default parameters, ip: localHost and port: 57110.
 
 ### osc:send-agent 
-This primitive receives as input a string with the name of the OSC tag, followed by the nameof an agentset of the model, and names of default or defined variables for this agentset, and sends them out. The syntax for this primitive is:
+This primitive receives as input a string with the name of the OSC tag, followed by the name of an agentset of the model, and names of default or defined variables for this agentset, and sends them out. The syntax for this primitive is:
 ```
 osc:send-agent "tagName" agentsetName var1 var2 var3 ...
 ```
