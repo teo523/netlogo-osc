@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: osc
+Implementation-Version: 0.1.0-SNAPSHOT
+Class-Manager: OscLogo
+Specification-Vendor: default
+Specification-Title: osc
+Implementation-Vendor-Id: default
+Extension-Name: osc
+Specification-Version: 0.1.0-SNAPSHOT
+NetLogo-Extension-API-Version: 6.0
+Created-By: 1.8.0_45 (Oracle Corporation)
+Implementation-Vendor: default
+
