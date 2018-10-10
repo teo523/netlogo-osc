@@ -14,10 +14,10 @@ After installing the OSC extension, in order to use it,
 it is mandatory to add the following line to the top of the
 procedures tab: extensions [osc]
 
-##Primitives 
+## Primitives 
 (taken from the original [release documentation](https://quod.lib.umich.edu/cgi/p/pod/dod-idx/osc-netlogo-a-tool-for-exploring-the-sonification-of-complex.pdf?c=icmc;idno=bbp2372.2012.069;format=pdf))
 
-###osc:port-out
+### osc:port-out
 This primitive should be used in the setup of the model.
 The user can set the IP (String) and port number (integer)
 of the receiving host, such as
