@@ -1,5 +1,5 @@
 # netlogo-osc
-Netlogo extension that allows to send OSC messages from it to other software (for more info see [complete documentation](https://quod.lib.umich.edu/cgi/p/pod/dod-idx/osc-netlogo-a-tool-for-exploring-the-sonification-of-complex.pdf?c=icmc;idno=bbp2372.2012.069;format=pdf) by Rodrigo Cádiz and Marco Colasso)
+Netlogo extension that allows to send OSC messages from it to other software. This is an update of the [original version](https://quod.lib.umich.edu/cgi/p/pod/dod-idx/osc-netlogo-a-tool-for-exploring-the-sonification-of-complex.pdf?c=icmc;idno=bbp2372.2012.069;format=pdf) made by Rodrigo Cádiz and Marco Colasso, which is compatible with the last version of Netlogo (6.x).  
 The OSC-NETLOGO Extension for NetLogo adds primitives to NetLogo that allow users to send data from NetLogo models via OSC to third party applications. Turtles, Breeds, Links, Patches and any other variables from a NetLogo patch can be routed to a compatible external hardware or software, via Ethernet.
 
 ## Installation 
