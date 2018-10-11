@@ -22,17 +22,17 @@ osc:port-out "169.254.183.129 " 10000
 
 If port-out is not defined, the extension will use the default parameters, ip: localHost and port: 57110.
 
-### osc:send-agent 
+### osc:send-agents 
 This primitive receives as input a string with the name of the OSC tag, followed by the name of an agentset of the model, and names of default or defined variables for this agentset, and sends them out. The syntax for this primitive is:
 ```
-osc:send-agent "tagName" agentsetName var1 var2 var3 ...
+osc:send-agents "tagName" agentsetName var1 var2 var3 ...
 ```
 Examples:
 ```
-osc:send-agent "myTurtles" turtles "xcor" "size"
-osc:send-agent "breeds" cars "XCOR" "age"
-osc:send-agent "links" blue-links "weight"
-osc:send-agent "patches" patch 2 2 "pcolor" "pxcor"
+osc:send-agents "myTurtles" turtles "xcor" "size"
+osc:send-agents "breeds" cars "XCOR" "age"
+osc:send-agents "links" blue-links "weight"
+osc:send-agents "patches" patch 2 2 "pcolor" "pxcor"
 ```
 ### osc:send-variables
 This primitive receives as input the name of any variable of the model and sends it out. Example:
