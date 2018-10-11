@@ -34,7 +34,7 @@ osc:send-agent "breeds" cars "XCOR" "age"
 osc:send-agent "links" blue-links "weight"
 osc:send-agent "patches" patch 2 2 "pcolor" "pxcor"
 ```
-### osc:send-variable
+### osc:send-variables
 This primitive receives as input the name of any variable of the model and sends it out. Example:
 ```
 osc:send-variables "decays" decays
